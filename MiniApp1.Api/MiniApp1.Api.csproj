@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\JWT.Service\JWT.Service.csproj" />
     <ProjectReference Include="..\SharedLibrary\JWT.SharedLibrary.csproj" />
   </ItemGroup>
 

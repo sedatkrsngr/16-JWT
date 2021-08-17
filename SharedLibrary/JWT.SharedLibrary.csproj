@@ -3,10 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\JWT.Core\JWT.Core.csproj" />
-    <ProjectReference Include="..\JWT.Data\JWT.Data.csproj" />
+    <FrameworkReference Include="Microsoft.AspNetCore.App"></FrameworkReference>
+    <!--Bu framework classlibraryde manuel yazyılırak eklendi.-->
   </ItemGroup>
-
 </Project>
